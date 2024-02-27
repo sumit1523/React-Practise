@@ -1,7 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 
-function App() {
+const App = () => {
   // console.log(props, "props-App");
   let obj = {
     name: "sumit",
@@ -15,6 +15,6 @@ function App() {
       <Card username="sam" />
     </>
   );
-}
+};
 
 export default App;
